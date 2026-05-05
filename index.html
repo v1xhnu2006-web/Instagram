@@ -1,0 +1,59 @@
+<style>
+    .insta-app-container {
+        max-width: 400px;
+        margin: 20px auto;
+        background: #fff;
+        border: 1px solid #dbdbdb;
+        border-radius: 10px;
+        overflow: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .app-header {
+        padding: 10px;
+        border-bottom: 1px solid #dbdbdb;
+        font-weight: bold;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post-image {
+        width: 100%;
+        height: 400px;
+        background: #efefef url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1000') center/cover;
+    }
+
+    .post-actions {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .like-btn { color: #ed4956; cursor: pointer; }
+
+    .post-caption {
+        padding: 0 10px 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .post-caption b { margin-right: 5px; }
+</style>
+
+<div class="insta-app-container">
+    <div class="app-header">
+        <span>Instagram_Clone</span>
+        <span>...</span>
+    </div>
+    
+    <div class="post-image"></div>
+    
+    <div class="post-actions">
+        <span class="like-btn">❤</span> <span>💬</span> <span>✈</span>
+    </div>
+    
+    <div class="post-caption">
+        <p><b>YourName</b> Capturing beautiful moments with you. #Love #Memories</p>
+    </div>
+</div>
+
